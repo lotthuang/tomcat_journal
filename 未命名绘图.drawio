@@ -1,1 +1,100 @@
-<mxfile host="app.diagrams.net" modified="2022-08-07T11:57:52.360Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" version="20.2.3" etag="AZe4EiHXJPCgPr7q2oA7" type="github"><diagram id="5xn9BYzp1G-W-8-P8qVu">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-08-08T01:43:12.203Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="LGrBIv-zoEsf1L1Ru4kg" version="20.2.3" type="github">
+  <diagram id="5xn9BYzp1G-W-8-P8qVu" name="第 1 页">
+    <mxGraphModel dx="1234" dy="619" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="mQ1RrCGEIN2foxukn7aQ-1" value="架构阶段" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="20" y="270" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mQ1RrCGEIN2foxukn7aQ-2" value="编码阶段" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="190" y="270" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mQ1RrCGEIN2foxukn7aQ-3" value="测试阶段" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="360" y="270" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mQ1RrCGEIN2foxukn7aQ-4" value="发布阶段" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="530" y="270" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mQ1RrCGEIN2foxukn7aQ-5" value="运行阶段" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="700" y="270" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mQ1RrCGEIN2foxukn7aQ-6" value="故障发生前" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="870" y="270" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mQ1RrCGEIN2foxukn7aQ-7" value="避免单点" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="1">
+          <mxGeometry x="40" y="220" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="mQ1RrCGEIN2foxukn7aQ-8" value="分组隔离" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#60a917;strokeColor=#2D7600;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="40" y="160" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="mQ1RrCGEIN2foxukn7aQ-9" value="异步化" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#60a917;strokeColor=#2D7600;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="40" y="100" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="mQ1RrCGEIN2foxukn7aQ-10" value="异地容灾" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#60a917;strokeColor=#2D7600;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="mQ1RrCGEIN2foxukn7aQ-11" value="错误捕获" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#60a917;strokeColor=#2D7600;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="200" y="220" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="mQ1RrCGEIN2foxukn7aQ-12" value="异步线程" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#60a917;strokeColor=#2D7600;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="200" y="160" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="mQ1RrCGEIN2foxukn7aQ-13" value="超时处理" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#60a917;strokeColor=#2D7600;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="200" y="100" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="mQ1RrCGEIN2foxukn7aQ-14" value="限流保护" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#60a917;strokeColor=#2D7600;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="200" y="40" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="mQ1RrCGEIN2foxukn7aQ-15" value="自动化测试" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#60a917;strokeColor=#2D7600;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="380" y="220" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="mQ1RrCGEIN2foxukn7aQ-16" value="压力测试" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#60a917;strokeColor=#2D7600;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="380" y="160" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="mQ1RrCGEIN2foxukn7aQ-17" value="多版本发布" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#60a917;strokeColor=#2D7600;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="560" y="220" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="mQ1RrCGEIN2foxukn7aQ-18" value="灰度发布" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#60a917;strokeColor=#2D7600;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="560" y="160" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="mQ1RrCGEIN2foxukn7aQ-19" value="实时监控报警" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#60a917;strokeColor=#2D7600;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="725" y="220" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="mQ1RrCGEIN2foxukn7aQ-20" value="过载保护" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#60a917;strokeColor=#2D7600;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="725" y="160" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="mQ1RrCGEIN2foxukn7aQ-21" value="自动降级" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#60a917;strokeColor=#2D7600;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="725" y="100" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="mQ1RrCGEIN2foxukn7aQ-22" value="数据对账" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#60a917;strokeColor=#2D7600;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="725" y="40" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="mQ1RrCGEIN2foxukn7aQ-23" value="预案建设" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#60a917;strokeColor=#2D7600;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="895" y="220" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="mQ1RrCGEIN2foxukn7aQ-25" value="故障中" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="270" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mQ1RrCGEIN2foxukn7aQ-26" value="故障结束后" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1210" y="270" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mQ1RrCGEIN2foxukn7aQ-27" value="故障演练" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#60a917;strokeColor=#2D7600;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="895" y="160" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="mQ1RrCGEIN2foxukn7aQ-28" value="故障快恢" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#60a917;strokeColor=#2D7600;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="220" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="mQ1RrCGEIN2foxukn7aQ-29" value="定位根因" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#60a917;strokeColor=#2D7600;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="1220" y="220" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="mQ1RrCGEIN2foxukn7aQ-30" value="彻底改善" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#60a917;strokeColor=#2D7600;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="1220" y="160" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="mQ1RrCGEIN2foxukn7aQ-31" value="奖惩制度" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#60a917;strokeColor=#2D7600;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="1220" y="100" width="120" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
